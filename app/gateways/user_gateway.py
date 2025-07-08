@@ -1,5 +1,5 @@
 from sqlalchemy import Column, String, Integer
-from app.drivers.database import Base
+from app.drivers.base import Base
 
 class UserGateway(Base):
     

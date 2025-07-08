@@ -19,7 +19,6 @@ class UserUseCases:
     def __init__(self, db_session: Session):
         self.db_session = db_session
 
-
     def user_register(self, user: UserSchemas):
         user_model = UserGateway(
             username=user.username,
